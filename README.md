@@ -3,7 +3,9 @@
 ### Interfaces:
 
 Declaration Merging: একই নামের একাধিক interface declare করলে তারা automatically merge হয়ে যায়
-Extension: extends keyword ব্যবহার করে অন্য interface থেকে inherit করতে পারে
+
+extends keyword ব্যবহার করে অন্য interface থেকে inherit করতে পারে
+
 Object-oriented: মূলত object এবং class এর জন্য ডিজাইন করা
 
 #### Example
@@ -79,3 +81,5 @@ Primitive Types: String, number, boolean ইত্যাদি primitive types d
         // Type-safe updates
         const updatedStudent = updateStudent(student, "grade", "A++");
         const updatedAge = updateStudent(student, "age", 17);
+
+এই approach গুলো ব্যবহার করে আপনি TypeScript-এ আরো type-safe এবং maintainable code লিখতে পারবেন।
